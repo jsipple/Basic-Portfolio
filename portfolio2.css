@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #888;
+    margin: 20px auto;
+    width 90%;
+    top: 0;
+}
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    padding: 10px 16px;
+    background-color: white;
+    clear: both;
+    margin-bottom: 500px;
+    border: 1px solid black;
+}
+.class {
+    position: absolute;
+    background-color: darkgreen;
+    color: white;
+    line-height: 150%
+}
+.relative {
+    position: relative;
+}
+h1 {
+    color: white;
+    background-color: turquoise;
+    position: absolute;
+    font-size: 20px;
+    line-height: 200%;
+    width: 160px;
+    height: 50px;
+    padding-left: 20px;
+    margin: 0;
+    padding-bottom: 10px;
+    top: 0;
+    left: 12%;
+    @media (max-width: 960px) {
+    left: 0;
+}
+}
+ul {
+    float: right;
+    justify-content: space-around;
+    list-style-type: none;
+    position: fixed;
+    right: 150px;
+}
+.nav-bar {
+    background-color: white;
+}
+li {
+    display: inline;
+    padding-right: 100px;
+    font-size: 20px;
+    width: 50%;
+    justify-content: space-between;
+}
+.nav-link {
+    margin-right: 10px;
+    text-decoration: none;
+    float: right;
+    list-style-type: none;
+}
+#wrapper {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    padding 20px;
+    background-color: white;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+   }
+#content {
+    margin-top: 70px;
+    padding-left: 20px;
+}
+li a {
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+h2 {
+    border-bottom: 1px solid gray;
+    width: 900px;
+    margin-left: 20px;
+    line-height: 200%;
+    color: turquoise;
+}
+p {
+    line-height: 150%;
+}
+img {
+    float: left;
+    margin-right: 10px;
+}
+.absolute {
+    position: absolute;
+    background: green;
+    width: 200px;
+    top: 150px;
+    line-height: 200%;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.image {
+    position: relative;
+    padding-left: 20px;
+}
