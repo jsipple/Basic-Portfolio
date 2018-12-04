@@ -4,7 +4,8 @@
 body {
     background-color: #888;
     margin: 20px auto;
-    width 90%;
+    width: 90%;
+    padding-top: 80px;
     top: 0;
 }
 header {
@@ -16,11 +17,11 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    height: 50px;
+    height: 75px;
     padding: 10px 16px;
     background-color: white;
+    margin-bottom: 100px;
     clear: both;
-    margin-bottom: 500px;
     border: 1px solid black;
 }
 .class {
@@ -36,17 +37,19 @@ h1 {
     color: white;
     background-color: turquoise;
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 200%;
     width: 160px;
-    height: 50px;
-    padding-left: 20px;
+    height: 75px;
+    padding-left: 10px;
     margin: 0;
-    padding-bottom: 10px;
+    padding-top: 15px;
     top: 0;
     left: 12%;
     @media (max-width: 960px) {
+    position: fixed;
     left: 0;
+    top 0;
 }
 }
 ul {
@@ -75,7 +78,7 @@ li {
 #wrapper {
     width: 960px;
     margin: 0 auto 0 auto;
-    padding 20px;
+    padding: 20px;
     background-color: white;
 }
 .clearfix::after {
@@ -84,8 +87,9 @@ li {
     clear: both;
    }
 #content {
-    margin-top: 70px;
+    margin-top: 20px;
     padding-left: 20px;
+    
 }
 li a {
     border-left: 1px solid black;
